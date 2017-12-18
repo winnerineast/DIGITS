@@ -9,8 +9,8 @@ The currently supported frameworks are: Caffe, Torch, and Tensorflow.
 
 | Installation method | Supported platform[s] | Available versions | Instructions |
 | --- | --- | --- | --- |
-| Docker | Linux | [DockerHub tags](https://hub.docker.com/r/nvidia/digits/tags/) | [nvidia-docker wiki](https://github.com/NVIDIA/nvidia-docker/wiki/DIGITS) |
 | Source | Ubuntu 14.04, 16.04 | [GitHub tags](https://github.com/NVIDIA/DIGITS/releases) | [docs/BuildDigits.md](docs/BuildDigits.md) |
+
 
 # Usage
 
@@ -21,6 +21,7 @@ Then, take a look at some of the other documentation at [docs/](docs/) and [exam
 * [Getting started with TensorFlow](docs/GettingStartedTensorflow.md)
 * [Getting started with Torch](docs/GettingStartedTorch.md)
 * [Fine-tune a pretrained model](examples/fine-tuning/README.md)
+* [Creating a dataset using data from S3 endpoint](examples/s3/README.md)
 * [Train an autoencoder network](examples/autoencoder/README.md)
 * [Train a regression network](examples/regression/README.md)
 * [Train a Siamese network](examples/siamese/README.md)
