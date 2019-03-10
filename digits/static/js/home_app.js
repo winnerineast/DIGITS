@@ -37,7 +37,7 @@ try {
         $scope.add_job = function(job_id) {
             $http({
                 method: 'GET',
-                url: URL_PREFIX + '/jobs/' + job_id + '/table_data.json',
+                url: URL_PREFIX + '/jobs/' + job_id + '/table_data/json',
             }).then(function success(response) {
                 var job = response.data.job;
                 for (var i = 0; i < $scope.jobs.length; i++) {
@@ -69,7 +69,7 @@ try {
         $scope.load_jobs = function() {
             $http({
                 method: 'GET',
-                url: URL_PREFIX + '/completed_jobs.json',
+                url: URL_PREFIX + '/completed_jobs/json',
             }).then(function success(response) {
                 // Find the dataset reference count
                 var count = {};
